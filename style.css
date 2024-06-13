@@ -11,6 +11,27 @@ body {
 
 }
 
+.image.cat {
+
+    border: none;
+    width: 400px;
+    position: absolute;
+    left: 20px;
+    right: auto;
+
+}
+
+.image.other-cat {
+
+    border: none;
+    width: 400px;
+    position: absolute;
+    right: 100px;
+    left: auto;
+
+}
+
+
 .image {
 
     text-align: center;
