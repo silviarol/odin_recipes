@@ -1,3 +1,9 @@
+* {
+
+    background-color: rgb(182, 169, 149);
+
+}
+
 body {
 
     font-family: "Trebuchet MS", Arial, serif;
@@ -15,9 +21,18 @@ img {
 
 }
 
+.box {
+
+    text-align: center
+
+}
+
 .recipe-list {
 
-    background-color: burlywood;
+    list-style-type: none;
+    display:inline-block;
+    border:1px solid #5e3919;
+    padding:20px;
 
 }
 
