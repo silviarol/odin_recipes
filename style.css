@@ -41,3 +41,13 @@ h1 {
     text-align: center;
 
 }
+
+.click {
+
+    background-color: rgb(84, 68, 58);
+    padding: 14px 40px;
+    font-size: 22px;
+    font-weight: bolder;
+    border-radius: 4px;
+    
+}
