@@ -1,6 +1,7 @@
 * {
 
     background-color: rgb(182, 169, 149);
+    box-sizing: border-box;
 
 }
 
@@ -9,6 +10,11 @@ body {
     font-family: "Trebuchet MS", Arial, serif;
     font-size: 22px;
 
+}
+
+h1 {
+
+    text-align: center;
 }
 
 .image {
@@ -23,38 +29,30 @@ img {
     height: auto;
     border: solid rgb(39, 29, 29);
     border-radius: 15px;
-
 }
 
 .box {
 
     text-align: center
-
 }
 
 .recipe-list {
 
     list-style-type: none;
-    border:1px solid #5e3919;
-    padding:20px;
-    font-size: 28px;
-
+ 
 }
 
 li {
-
-    display: line;
-}
-
-
-h1 {
-
+    padding: 30px;
     text-align: center;
-
+    margin-bottom: 10px;
+    color:#EEEEEE;
+    background-color: #5e3919;
+    display: inline-block;
 }
 
 .click {
-
+    
     background-color: rgb(84, 68, 58);
     padding: 14px 40px;
     font-size: 22px;
