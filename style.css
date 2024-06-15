@@ -11,27 +11,6 @@ body {
 
 }
 
-.image.cat {
-
-    border: none;
-    width: 400px;
-    position: absolute;
-    left: 20px;
-    right: auto;
-
-}
-
-.image.other-cat {
-
-    border: none;
-    width: 400px;
-    position: absolute;
-    right: 100px;
-    left: auto;
-
-}
-
-
 .image {
 
     text-align: center;
@@ -56,12 +35,17 @@ img {
 .recipe-list {
 
     list-style-type: none;
-    display:inline-block;
     border:1px solid #5e3919;
     padding:20px;
     font-size: 28px;
 
 }
+
+li {
+
+    display: line;
+}
+
 
 h1 {
 
