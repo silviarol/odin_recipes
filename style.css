@@ -17,27 +17,13 @@ h1 {
     margin: 20px;
 }
 
-.image.cat {
-    display: inline-block;
-    border:none;
-    width: 400px;
-    height: auto;
-    margin-right: 50px;
-}
-
-.image.other-cat{
-    display: inline-block;
-    border:none;
-    width: 400px;
-    height: auto;
-    margin-left: 0px;
-}
-
 img {
     width: 800px;
     height: auto;
     border: solid rgb(39, 29, 29);
     border-radius: 15px;
+    margin: 0px auto;
+    padding: 0px;
 }
 
 .box {
@@ -46,6 +32,7 @@ img {
 
 .recipe-list {
     list-style-type: none;
+    margin: 0px auto;
 }
     
 .rlist {
@@ -56,7 +43,7 @@ img {
     text-align: center;
     height: 100px;
     width: 300px;
-    margin: 20px 15px;
+    margin: 10px 5px;
     padding: 35px;
 
 }
