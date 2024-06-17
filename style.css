@@ -39,12 +39,12 @@ img {
     justify-content: center;
     margin: 0px;
     padding: 0px;
+    flex-wrap: wrap;
 }
 
 .box a {
     color:rgb(39, 29, 29);
     text-decoration: none;
-    flex: initial;
 }
 
 .box li {
@@ -52,10 +52,11 @@ img {
     border: rgb(39, 29, 29) solid 10px;  
     border-radius: 3px;
     padding: 10px 20px;
+    flex: initial;
 }
 
 .box a:hover {
-    color: rgb(37, 35, 35);
+    color: rgb(58, 58, 58);
 }
 
 .click {
