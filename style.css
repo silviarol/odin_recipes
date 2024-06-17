@@ -32,13 +32,13 @@ img {
 }
 
 .box {
-    text-align: center;
     display: flex;
+    flex-direction: column;
     list-style: none;
-    padding: 0;
-    margin: 0px auto;
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
 }
 
 .box a {
@@ -47,11 +47,13 @@ img {
 }
 
 .box li {
-    flex: 1;
-    border: rgb(84, 68, 58) solid 5px;
+    text-align: center;
+    border: rgb(39, 29, 29) solid 10px;  
+    border-radius: 3px;
+    padding: 10px 20px;
 }
 
-.rlink:hover {
+.box a:hover {
     color: gray;
 }
 
