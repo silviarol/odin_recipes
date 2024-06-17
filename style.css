@@ -26,7 +26,7 @@ img {
     padding: 0px;
 }
 
-.image.cooking {
+.image .cooking {
    width: 915px;
    height: auto;
 }
@@ -37,18 +37,18 @@ img {
     list-style: none;
     padding: 0;
     margin: 0px auto;
-    border: 5px black solid;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
-.rlink {
-    color: #EEEEEE;
+.box a {
+    color:rgb(84, 68, 58);
     text-decoration: none;
 }
 
 .box li {
     flex: 1;
-    border: 5px brown solid;
+    border: rgb(84, 68, 58) solid 5px;
 }
 
 .rlink:hover {
