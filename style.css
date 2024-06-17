@@ -32,18 +32,28 @@ img {
 }
 
 .box {
-    text-align: center
+    text-align: center;
+    display: flex;
+    list-style: none;
+    margin: 2px auto;
 }
 
 .rlink {
     background-color: #5e3919;
     color: #EEEEEE;
+    border: black solid 2px;
     text-decoration: none;
     text-align: center;
     display: inline-block;
     width: 300px;
     height: 50px;
     padding: 10px;
+}
+
+li {
+
+    flex: 1;
+    text-align: center;
 }
 
 .rlink:hover {
