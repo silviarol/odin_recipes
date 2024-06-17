@@ -35,13 +35,16 @@ img {
     text-align: center;
     display: flex;
     list-style: none;
-    margin: 2px auto;
+    padding: 0px;
+    width: 915px;
+    height: auto;
+    margin: 0px auto;
 }
 
 .rlink {
     background-color: #5e3919;
     color: #EEEEEE;
-    border: black solid 2px;
+    border: rgb(84, 68, 58) solid 2px;
     text-decoration: none;
     text-align: center;
     display: inline-block;
@@ -50,10 +53,8 @@ img {
     padding: 10px;
 }
 
-li {
-
+.list {
     flex: 1;
-    text-align: center;
 }
 
 .rlink:hover {
